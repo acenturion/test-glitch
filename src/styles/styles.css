@@ -162,3 +162,7 @@ h1 {
   cursor: pointer;
   padding-left: 3.5rem;
 }
+
+.select-none{
+ user-select: none;
+}

@@ -8,7 +8,8 @@ const strings = [
   "Salut React",
   "Hola React",
   "안녕 React",
-  "Hej React"
+  "Hej React",
+  "Hola Mundo"
 ];
 
 // Utility function to choose a random value from the language array
@@ -29,7 +30,7 @@ export default function Home() {
   return (
     <>
       <h1 className="title">{hello}!</h1>
-      <animated.div onMouseEnter={trigger} style={style}>
+      <animated.div onMouseEnter={trigger} style={style} className="select-none">
         <img
           src="https://cdn.glitch.com/2f80c958-3bc4-4f47-8e97-6a5c8684ac2c%2Fillustration.svg?v=1618196579405"
           className="illustration"
